@@ -7,7 +7,7 @@ and finding out **what the model actually learned**.
 
 ## The short version
 
-Models on this dataset often report 98-99% accuracy, but that number is misleading:
+At first sight this dataset looks easy, but two things make it harder than it seems:
 
 - **23% of the test images also appear in the training set** (64% for no tumor), because of duplicates.
 - **The no-tumor images come from a different source** than the tumor images (size, color format, brightness, some even have website banners).
